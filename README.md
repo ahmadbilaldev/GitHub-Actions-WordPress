@@ -1,6 +1,6 @@
 # GitHub Actions for WordPress
 
-GitHub actions for WordPress by different authors, and how to use them.
+GitHub actions for WordPress by different authors, and how to use them. Watch my talk on [WordSesh](https://WordSesh.com).
 
 ## [WordPress.org Plugin Deploy by **10up**](https://github.com/marketplace/actions/wordpress-plugin-deploy)
 
@@ -100,3 +100,7 @@ values.
 
 This action will run whenever you push changes to assets to master 🎉
 
+## More Actions
+
+### [PHPCS on pull request by rtCamp](https://github.com/rtCamp/action-phpcs-code-review)
+### [Notify Slack with Deployment Status by rtCamp](https://github.com/rtCamp/action-slack-notify)
