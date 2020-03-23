@@ -63,27 +63,7 @@ With each push to the master branch that updates assets/readme.
 
 1. Inside your plugin repository on GitHub, create a `.github/workflows/deploy.yml` file.
 
-2. Use this code:
-
-``` bash
-name: Plugin asset/readme update
-on:
-  push:
-    branches:
-    - master
-jobs:
-  master:
-    name: Push to master
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - name: WordPress.org plugin asset/readme update
-      uses: 10up/action-wordpress-plugin-asset-update@master
-      env:
-        SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-        SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
-        SLUG: your-plugin-slug
-```
+2. Copy the sample workflow file into yours
 
 3. If your GitHub repository slug is not same as the WordPress slug, add the
 wordpress slug.
@@ -100,7 +80,11 @@ values.
 
 This action will run whenever you push changes to assets to master 🎉
 
-## More Actions
+##  WP Continuous Deployment CLI by Ahmad Awais
+
+Node based CLI which automates deployments even further. Follow [Ahmads article](https://ahmadawais.com/wp-continuous-deployment/)
+for details and usage.
+
 
 ### [PHPCS on pull request by rtCamp](https://github.com/rtCamp/action-phpcs-code-review)
 ### [Notify Slack with Deployment Status by rtCamp](https://github.com/rtCamp/action-slack-notify)
