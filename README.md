@@ -89,6 +89,23 @@ for details and usage.
 
 Runs PHPCS Code review for every pull request.
 
+### Triggers
+
+Whenever a new pull request is created.
+
+### Usage
+
+1. Inside your plugin repository on GitHub, create a `.github/workflows/deploy.yml` file.
+
+2. Copy the workflow file given at the action's homepage. Commit it.
+
+3. Use a Bot account and create a personal access token, make sure to copy it.
+
+4. Go back to your repo, inside settings > secrets, create a new secret. Initialize it with the token's value. 
+
+The action will run whenever a pull request is created.
+
+
 ## [PHP Matrix Testing for WordPress Plugins](https://pascalknecht.ch/php-matrix-testing-for-wordpress-plugins-with-github-actions/)
 
 This action is based on CI (Continuous Integration). Matrix testing describes the task of testing a software on different version of the programming language or other factors. This action runs unit tests your plugin on different php versions to test your plugins compatibility with them.
