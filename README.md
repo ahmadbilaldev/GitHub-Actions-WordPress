@@ -80,11 +80,25 @@ values.
 
 This action will run whenever you push changes to assets to master 🎉
 
-##  WP Continuous Deployment CLI by Ahmad Awais
+##  [WP Continuous Deployment CLI by Ahmad Awais](https://github.com/ahmadawais/wp-continuous-deployment)
 
 Node based CLI which automates deployments even further. Follow [Ahmads article](https://ahmadawais.com/wp-continuous-deployment/)
 for details and usage.
 
+## [PHPCS on pull request by rtCamp](https://github.com/rtCamp/action-phpcs-code-review)
 
-### [PHPCS on pull request by rtCamp](https://github.com/rtCamp/action-phpcs-code-review)
+Runs PHPCS Code review for every pull request.
+
+## [PHP Matrix Testing for WordPress Plugins](https://pascalknecht.ch/php-matrix-testing-for-wordpress-plugins-with-github-actions/)
+
+This action is based on CI (Continuous Integration). Matrix testing describes the task of testing a software on different version of the programming language or other factors. This action runs unit tests your plugin on different php versions to test your plugins compatibility with them.
+
+## [WP Pot Generator](https://github.com/varunsridharan/action-wp-pot-generator)
+
+This Action Generates POT Files for your wordpress Plugin / Theme based on the content inside Github Repo.
+
+## [Generate WordPress plugin hook documentation and deploy it to GitHub Pages](https://github.com/10up/actions-wordpress/blob/master/hookdocs-workflow.md)
+
+If you document the hooks (actions and filters) in your WordPress project using the JSDoc standard, you can automatically turn that into a reader-friendly resource using this guide! This workflow uses a combination of a build process and an Action to publish documentation to GitHub Pages so you don't have to separately worry about keeping your documentation up to date and publicly available.
+
 ### [Notify Slack with Deployment Status by rtCamp](https://github.com/rtCamp/action-slack-notify)
